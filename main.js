@@ -65,11 +65,6 @@ startbutton.setAttribute("class", "button");
 startGame.append(startbutton);
 startbutton.innerHTML = "Start";
 
-// var options = document.createElement("button");
-// options.setAttribute("class", "button");
-// startGame.append(options);
-// options.innerHTML = "Options";
-
 
 
 // starting game
@@ -98,7 +93,6 @@ function createUI() {
     body.style.backgroundColor = "#af274e";
     startGame.style.display = "none";
     startbutton.style.display = "none";
-    options.style.display = "none";
     container.style.display = "inline";
     four.style.display = "inline";
     header.style.display = "inline";
@@ -234,7 +228,7 @@ function nextFocus(event) {
     }
 }
 
-start();
+
 
 
 
